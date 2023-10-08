@@ -19,6 +19,12 @@ code {
   flex-direction: column;
 
 }
+.main-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .main{
   position: absolute;
   margin-top: 3rem;
