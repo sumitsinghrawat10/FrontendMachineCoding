@@ -38,3 +38,19 @@ code {
   border-radius: 20px;
 
 }
+.progress{
+  width: 20vw;
+  height: 5vh;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.progress_bar{
+  position: absolute;
+  width: 5vw;
+  transition: width 1s ease-out;
+  height: inherit;
+  text-align: center;
+  /* background-color: aquamarine; */
+
+}
