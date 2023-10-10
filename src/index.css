@@ -54,3 +54,20 @@ code {
   /* background-color: aquamarine; */
 
 }
+.product{
+  border: 2px solid gray;
+  border-radius: 20px;
+  margin: 5px;
+  text-align: center;
+  padding: 3px;
+}
+.button-page{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.text{
+  text-decoration: underline;
+}

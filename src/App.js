@@ -2,7 +2,8 @@ import React from 'react'
 // import Home from './Home'
 // import StarRating from './component/StarRating'
 // import StarRatingClick from './component/StarRatingClick'
-import ProgressBar from './component/ProgressBar'
+// import ProgressBar from './component/ProgressBar'
+import Pagination from './component/Pagination'
 
 const App = () => {
   return (
@@ -14,8 +15,11 @@ const App = () => {
       {/* <StarRating rating={2.5}/> */}
       {/* <StarRatingClick/> */}
 
-      {/* --------------------------------------------------------------------------- */}
-      <ProgressBar/>
+      {/* -----------------------Progress--- Bar---------------------------------------------------- */}
+      {/* <ProgressBar/> */}
+{/* -------------------------------Pagination-----------------------  */}
+      <Pagination/>
+      
     </div>
   )
 }
