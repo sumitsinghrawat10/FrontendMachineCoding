@@ -38,3 +38,36 @@ code {
   border-radius: 20px;
 
 }
+.progress{
+  width: 20vw;
+  height: 5vh;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.progress_bar{
+  position: absolute;
+  width: 5vw;
+  transition: width 1s ease-out;
+  height: inherit;
+  text-align: center;
+  /* background-color: aquamarine; */
+
+}
+.product{
+  border: 2px solid gray;
+  border-radius: 20px;
+  margin: 5px;
+  text-align: center;
+  padding: 3px;
+}
+.button-page{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.text{
+  text-decoration: underline;
+}
