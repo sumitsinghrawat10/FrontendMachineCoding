@@ -61,6 +61,7 @@ code {
   text-align: center;
   padding: 3px;
 }
+
 .button-page{
   display: flex;
   flex-direction: row;
@@ -70,4 +71,26 @@ code {
 }
 .text{
   text-decoration: underline;
+}
+.search{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.products {
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 2px;
+  text-align: center;
+}
+.input_div{
+  position: relative;
+ 
+  
+}
+.dropdown{
+  position: absolute;
+  cursor: pointer;
+   border: 1px solid gray;
 }
